@@ -13,4 +13,8 @@ public class ScaryAnimal extends Animal {
         System.out.println("OAWHoooooooooooooooOOO!");
 
     }
+    @Override
+    public void eatUnderYonderTree() {
+        System.out.println("Munch Crunch Sluuuurp");
+    }
 }

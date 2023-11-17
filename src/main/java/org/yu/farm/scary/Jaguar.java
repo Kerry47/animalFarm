@@ -1,12 +1,12 @@
 package org.yu.farm.scary;
 
+import org.yu.farm.AnimalType;
 import org.yu.farm.Cat;
 
-public class Jaguar extends Cat {
+public class Jaguar extends ScaryAnimal {
 
-    public Jaguar(String name) {
-        super(name);
-    }
+    public Jaguar(String name){super(AnimalType.CAT, name);}
+
 
     @Override
     public void eatUnderYonderTree() {
